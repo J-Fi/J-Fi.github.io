@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://afternoon-beyond-29045.herokuapp.com/v1/task/'; //http://localhost:8080
+  var apiRoot = "https://afternoon-beyond-29045.herokuapp.com/v1/task/"; //http://localhost:8080
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
