@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://afternoon-beyond-29045.herokuapp.com/v1/task/'; //http://localhost:8080
+  var apiRoot = "https://afternoon-beyond-29045.herokuapp.com/v1/task/"; //http://localhost:8080
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
@@ -122,4 +122,8 @@ $(document).ready(function() {
   tasksContainer.on('click','[data-task-edit-abort-button]', toggleEditingState);
   tasksContainer.on('click','[data-task-submit-update-button]', handleTaskUpdateRequest);
   tasksContainer.on('click','[data-task-delete-button]', handleTaskDeleteRequest);
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 1bc6d157d5aed2e06076ef8dbed4bc4ff68d3d9c
