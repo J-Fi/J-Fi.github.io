@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   var apiRoot = "https://afternoon-beyond-29045.herokuapp.com/v1/task/"; //http://localhost:8080
   //const apiRoot = 'http://localhost:8080/v1/task/';
-  const trelloApiRoot = 'https:////api.trello.com/1';//'http://localhost:8080/v1/trello/';
+  const trelloApiRoot = 'https://api.trello.com/1';//'http://localhost:8080/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
